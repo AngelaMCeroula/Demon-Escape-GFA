@@ -17,14 +17,18 @@ public class EnemyAIScript : MonoBehaviour
     public GameObject playerReference;
     public bool CanSeePlayer { get; private set; }
     
-    public float speed;
+  
     private float distance;
     public float runSpeed;
+    
+    
+    
     
     void Start()
     {
         playerReference = GameObject.FindGameObjectWithTag("Player");
         StartCoroutine(FOVCheck());
+        
     }
 
     private IEnumerator FOVCheck()
@@ -55,7 +59,6 @@ public class EnemyAIScript : MonoBehaviour
                 if (!Physics2D.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionLayer))
                 {
                     CanSeePlayer = true;
-                    Debug.Log("You've been Seen");
                 }
 
                 else
@@ -113,22 +116,11 @@ public class EnemyAIScript : MonoBehaviour
         }
         void AiChase()
         {
-            /*distance = Vector2.Distance(transform.position, player.transform.position);
-            Vector2 direction = player.transform.position - transform.position;
-            direction.Normalize();
-            float directionAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-           
-            
-            transform.position = Vector3.MoveTowards(this.transform.position, playerReference.transform.position,
-                speed * Time.deltaTime);
-            transform.rotation = Quaternion.Euler((Vector3.forward * direction));*/
-            
             float step = runSpeed * Time.deltaTime;
 
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, step);
             transform.up = player.position - transform.position;
-
-
+            
         }
     }
 

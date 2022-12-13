@@ -8,6 +8,7 @@ TagManager:
   - Floor
   - Wall
   - Obstacle
+  - Tool
   layers:
   - Default
   - TransparentFX
