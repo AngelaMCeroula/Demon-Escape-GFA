@@ -8,7 +8,8 @@ public class TopDownPlayerController : MonoBehaviour
 
     public float moveSpeed;
     public Rigidbody2D rb;
-    private Vector2 moveDirection; 
+    private Vector2 moveDirection;
+    private Animator animator;
 
     // Update is called once per frame
     void Update()
@@ -35,7 +36,24 @@ public class TopDownPlayerController : MonoBehaviour
     void Move()
     {
         rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
-        
+
+        //use of animator to set animation for each axis
+        if (moveDirection.x != 0 || moveDirection.y != 0)
+        {
+            animator.SetFloat("X", moveDirection.x);
+            animator.SetFloat("Y", moveDirection.y);
+
+            animator.SetBool("IsWalking", true);
+        }
+        else
+        {
+            animator.SetBool("IsWalking", false);
+        }
+    }
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
     }
     
 }

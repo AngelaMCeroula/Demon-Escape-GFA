@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 724af198555915a468b3b5e6b89cdf8d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: demon 1 animation sheet_0
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1506
+        width: 196
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b15eaddc0f710449a2d2a7e954bc14
+      internalID: -1623675232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_1
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1506
+        width: 183
+        height: 390
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5154f7e44328c724e963aa4b6e3db1b9
+      internalID: -545904875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_2
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1506
+        width: 194
+        height: 385
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa67de508dd86d54a87823d3bd2a9a8d
+      internalID: -665714262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1506
+        width: 182
+        height: 390
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774b90a397c8eec4cabdee250ab2fb54
+      internalID: 2112502542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1506
+        width: 195
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127e5cf91b5561546b94cb5607dc4eaa
+      internalID: 1574780386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 1506
+        width: 187
+        height: 386
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6218c38dfdfc30449ed66bff11be719
+      internalID: 1858511776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_6
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1024
+        width: 124
+        height: 376
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c077aadc8084ce643860f17bdd415c83
+      internalID: -1121096186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_7
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1024
+        width: 110
+        height: 380
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2ec5bc20c2e2847ae5b89471f7993b
+      internalID: 1580793917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_8
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1024
+        width: 116
+        height: 382
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665a767e8abb34043af0a0186ed0a083
+      internalID: -1558378257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1024
+        width: 107
+        height: 381
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a0edf3da931524a99c1785b53c679d
+      internalID: 1231687549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1024
+        width: 124
+        height: 380
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731f2f35b62b4f641ae26d9217c5eab3
+      internalID: -1926715140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 1024
+        width: 134
+        height: 375
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80fa21177442994d880eece199a6566
+      internalID: -1457370005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_12
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 540
+        width: 107
+        height: 381
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14399d98d1c3e1c4792b3ba5b151ab86
+      internalID: -1316448064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_13
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 540
+        width: 116
+        height: 384
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59787714d541b142b563ad95806a8d1
+      internalID: 981994704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_14
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 540
+        width: 109
+        height: 380
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f9ae4867d01a641a9f773f23e987c0
+      internalID: -1506068212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 540
+        width: 124
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d644db3a092dded4489c8e9e2d26d0d6
+      internalID: -1308495201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 540
+        width: 134
+        height: 375
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20f834a162642f4d823e9a37c0fad09
+      internalID: 1618432165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 540
+        width: 124
+        height: 380
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bede3d5489205064480dd13ae878e00a
+      internalID: 1334437965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 58
+        width: 195
+        height: 396
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db3659f3e8825c4eacd83dc38fa515f
+      internalID: 1150845630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_19
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 58
+        width: 183
+        height: 391
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0fbccb57b022c4796165a7ab075900
+      internalID: 1861300328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_20
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 58
+        width: 194
+        height: 385
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b7a74d94faf4c4c9608582ba0b95ec
+      internalID: -2050274664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 58
+        width: 182
+        height: 391
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc75539c7ea03414ba269f7e615ec7cb
+      internalID: 495832997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 58
+        width: 185
+        height: 386
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e2be073eb21844389085426129ef4e
+      internalID: 754589495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon 1 animation sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 58
+        width: 183
+        height: 391
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f0c2ce25396fa41b7c04e12164fbf9
+      internalID: -1917406555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      demon 1 animation sheet_5: 1858511776
+      demon 1 animation sheet_6: -1121096186
+      demon 1 animation sheet_9: 1231687549
+      demon 1 animation sheet_16: 1618432165
+      demon 1 animation sheet_14: -1506068212
+      demon 1 animation sheet_12: -1316448064
+      demon 1 animation sheet_17: 1334437965
+      demon 1 animation sheet_3: 2112502542
+      demon 1 animation sheet_22: 754589495
+      demon 1 animation sheet_0: -1623675232
+      demon 1 animation sheet_8: -1558378257
+      demon 1 animation sheet_18: 1150845630
+      demon 1 animation sheet_19: 1861300328
+      demon 1 animation sheet_7: 1580793917
+      demon 1 animation sheet_23: -1917406555
+      demon 1 animation sheet_4: 1574780386
+      demon 1 animation sheet_1: -545904875
+      demon 1 animation sheet_21: 495832997
+      demon 1 animation sheet_20: -2050274664
+      demon 1 animation sheet_11: -1457370005
+      demon 1 animation sheet_15: -1308495201
+      demon 1 animation sheet_13: 981994704
+      demon 1 animation sheet_10: -1926715140
+      demon 1 animation sheet_2: -665714262
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

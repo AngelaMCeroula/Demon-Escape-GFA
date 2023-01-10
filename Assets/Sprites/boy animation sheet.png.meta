@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: fde96f90871ad614897335476438db00
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boy animation sheet_0
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1506
+        width: 152
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8855e4a6b7103674cb6ab105153c2fef
+      internalID: -993611746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_1
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1507
+        width: 151
+        height: 396
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2dc3b209837814184917297f9e9238
+      internalID: -710221414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_2
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1506
+        width: 152
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbba1c0cfc61044c95c27edb8681617
+      internalID: -891267878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1506
+        width: 150
+        height: 397
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1535b4588d90f9f47ba9a5e65c44ad64
+      internalID: 1049912571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1765
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60891c3e54e70ac408304769c6328c98
+      internalID: -1824859217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1506
+        width: 150
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bc1fbc92eb4074b840f595cff01666
+      internalID: 403783039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 1506
+        width: 152
+        height: 387
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1baef03740ec1ba4391bd9d8b5065e20
+      internalID: -490807323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_7
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1024
+        width: 112
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd0f5da1d834dc429ce1816237c4841
+      internalID: -330988358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_8
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1024
+        width: 110
+        height: 388
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1021c74018db3e74c8c8cb827c41ce76
+      internalID: -869535721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_9
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1024
+        width: 112
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512ab189fe328bd40aac333dfe5e6287
+      internalID: -1357149983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1024
+        width: 108
+        height: 388
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3319e8eb6ac34244189abf2b5a013109
+      internalID: 592954729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1024
+        width: 109
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8ac5591dc742a40a52fb45c197ab70
+      internalID: -190176598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 1024
+        width: 109
+        height: 388
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e681b3909eb19941b29f502d1fd63a8
+      internalID: 1369101404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 540
+        width: 108
+        height: 389
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06893ee43bf4e8d46a433f0e45dcf389
+      internalID: 500784137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_14
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 540
+        width: 112
+        height: 396
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3703a4342b63249825c25cd8fbadb4
+      internalID: 1167191641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_15
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 540
+        width: 110
+        height: 389
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dbcfd4c63e56345b162add6846fbb0
+      internalID: -907251485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 540
+        width: 112
+        height: 396
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fd5e72863bec649ad087f16b86a1a6
+      internalID: 1676406105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 540
+        width: 109
+        height: 390
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b81e82f6593d64b824f2eaf038c431
+      internalID: -146110008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 540
+        width: 109
+        height: 396
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfbe9016a143ab44a3a1015878345f8
+      internalID: 2057973531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_19
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 58
+        width: 151
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5ecaf0b2cbec1408a857b994876a62
+      internalID: 1904401275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_20
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 58
+        width: 152
+        height: 398
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645ffbbdbe898db429f86bfaee4ed9eb
+      internalID: 711745017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_21
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 58
+        width: 151
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc90b2f41947b147845f07028ef7edd
+      internalID: 374967249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 58
+        width: 151
+        height: 398
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd4d3b2575e77a4898ed45d07078ebe
+      internalID: -834650452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 58
+        width: 152
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01d0e8c150034645bf7fb43b7adc878
+      internalID: -1148981710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy animation sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 58
+        width: 152
+        height: 388
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44caedeca3e74e248a87733b8b021815
+      internalID: 501814398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      boy animation sheet_24: 501814398
+      boy animation sheet_0: -993611746
+      boy animation sheet_16: 1676406105
+      boy animation sheet_21: 374967249
+      boy animation sheet_9: -1357149983
+      boy animation sheet_12: 1369101404
+      boy animation sheet_3: 1049912571
+      boy animation sheet_1: -710221414
+      boy animation sheet_13: 500784137
+      boy animation sheet_7: -330988358
+      boy animation sheet_23: -1148981710
+      boy animation sheet_19: 1904401275
+      boy animation sheet_8: -869535721
+      boy animation sheet_11: -190176598
+      boy animation sheet_22: -834650452
+      boy animation sheet_6: -490807323
+      boy animation sheet_15: -907251485
+      boy animation sheet_18: 2057973531
+      boy animation sheet_10: 592954729
+      boy animation sheet_14: 1167191641
+      boy animation sheet_2: -891267878
+      boy animation sheet_4: -1824859217
+      boy animation sheet_5: 403783039
+      boy animation sheet_17: -146110008
+      boy animation sheet_20: 711745017
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

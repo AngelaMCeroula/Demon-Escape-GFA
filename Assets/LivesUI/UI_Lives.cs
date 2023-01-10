@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,10 +8,22 @@ public class UI_Lives : MonoBehaviour
 {
     public Sprite[] _liveSprites;
     public Image _LivesImage;
-
-    public void updateLives(int lives)
+    private int currentLives;
+    private Player_Life_GameOver gOver;
+    
+    
+    
+    
+    private void Start()
     {
-        _LivesImage.sprite = _liveSprites[lives];
+        //gOver = gameObject.Find("Player").GetComponent<Player_Life_GameOver>();
+        currentLives = gOver.lives;
+
+    }
+
+    public void updateLives(int currentLives)
+    {
+        _LivesImage.sprite = _liveSprites[currentLives];
     }
     
 }
