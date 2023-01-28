@@ -5,13 +5,20 @@ using TMPro.EditorUtilities;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.Serialization;
-using UnityEngine.UI;
+
 
 public class Player_Life_GameOver : MonoBehaviour
 {
     public int lives = 3 ; // number of lives
     public Transform startPosition;
+    public UI_Lives _livesUi;
+
+
+    private void Start()
+    {
+        _livesUi = GameObject.Find("Lives_Display_img").GetComponent<UI_Lives>();
+        
+    }
 
     private void Update()
     {
@@ -32,13 +39,16 @@ public class Player_Life_GameOver : MonoBehaviour
            
             if (lives >= 1)
             {
-                lives -= 1;
+                lives --;
                 transform.position = startPosition.transform.position;
+                
 
             }
         }
         
     }
+    
+    
     
 
 }

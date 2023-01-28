@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class UIscript : MonoBehaviour
+public class MainMenu_Script: MonoBehaviour
 {
-
     public void StartButton()
     {
         SceneManager.LoadScene("Level_0_Attic");
+    }
+
+    public void LevelSelect()
+    {
+        
     }
 
     public void Quit()

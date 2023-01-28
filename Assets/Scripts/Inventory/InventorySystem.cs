@@ -8,6 +8,7 @@ namespace Inventory
     {
         private List<string> _inventoryList = new List<string>();
         public List<GameObject> inventorySlots;
+        private bool hasItem;
 
         public void AddItem(string item, Sprite itemSprite)
         {
@@ -29,7 +30,9 @@ namespace Inventory
             _inventoryList.Remove(itemName);
             foreach (GameObject slot in inventorySlots)
             {
-                if (slot.GetComponent<SpriteRenderer>().sprite == itemSprite)
+                var slotImage = slot.GetComponent<Image>();
+                
+                if (slotImage.sprite == itemSprite)
                 {
                     slot.SetActive(false);
                     break;
@@ -39,12 +42,18 @@ namespace Inventory
 
         public bool HasItem(string itemName, Sprite itemSprite)
         {
+
             if (_inventoryList.Contains(itemName))
             {
-                RemoveItem(itemName, itemSprite);
+                hasItem = true;
             }
 
-            return _inventoryList.Contains(itemName);
+            if (!_inventoryList.Contains(itemName))
+            {
+                hasItem = false;
+            }
+
+            return hasItem;
         }
     } 
 }    

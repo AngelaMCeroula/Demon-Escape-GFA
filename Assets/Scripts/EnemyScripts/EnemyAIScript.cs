@@ -14,7 +14,7 @@ public class EnemyAIScript : MonoBehaviour
     public LayerMask obstructionLayer;
 
     public Transform player;
-    public GameObject playerReference;
+    private GameObject playerReference;
     public bool CanSeePlayer { get; private set; }
     
   
@@ -116,10 +116,13 @@ public class EnemyAIScript : MonoBehaviour
         }
         void AiChase()
         {
+            
             float step = runSpeed * Time.deltaTime;
 
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, step);
             transform.up = player.position - transform.position;
+           
+           
             
         }
     }

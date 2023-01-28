@@ -25,7 +25,12 @@ public class TopDownPlayerController : MonoBehaviour
 
     void ProcessInputs()
     {
-        //uses Unity's axis input keys "The GetAxis page describes in detail what the axisName for GetAxisRaw means. For example the Horizontal axis is managed by Left and Right, and a and d keys. Other Input Axes can be seen in the Edit->Settings->Input window."
+        /*
+         uses Unity's axis input keys 
+        "The GetAxis page describes in detail what the axisName for GetAxisRaw means.
+        For example the Horizontal axis is managed by Left and Right, and a and d keys. Other Input Axes can be seen in the Edit->Settings->Input window."
+         */
+        
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
