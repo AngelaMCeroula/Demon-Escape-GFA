@@ -12,6 +12,12 @@ public class GameOverUI_Script : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
 
     }
+    
+    public void LevelSelectButton()
+    {
+        SceneManager.LoadScene("LevelSelect");
+        
+    }
    
     public void QuitGame()
     {

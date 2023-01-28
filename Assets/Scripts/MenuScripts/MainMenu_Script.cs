@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,8 +11,9 @@ public class MainMenu_Script: MonoBehaviour
         SceneManager.LoadScene("Level_0_Attic");
     }
 
-    public void LevelSelect()
+    public void LevelSelectButton()
     {
+        SceneManager.LoadScene("LevelSelect");
         
     }
 

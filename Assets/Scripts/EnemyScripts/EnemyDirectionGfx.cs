@@ -20,5 +20,17 @@ public class EnemyDirectionGfx : MonoBehaviour
             transform.localScale = new Vector3(1f, 1f, 1f); // flips the sprite to the right
         }
 
+        if (aiPath.desiredVelocity.y <= -0.01f) //if moving down
+        {
+           
+        }
+        
+        if (aiPath.desiredVelocity.y >= -0.01f) //if moving up
+        {
+            
+        }
+        
+        
+
     }
 }
