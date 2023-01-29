@@ -35,8 +35,8 @@ public class UI_Lives : MonoBehaviour
         {
             case 3:
             {
-                imgLives1.gameObject.SetActive(true);
-                imgLives2.gameObject.SetActive(true);
+                imgLives1.gameObject.SetActive(false);
+                imgLives2.gameObject.SetActive(false);
                 imgLives3.gameObject.SetActive(true);
                 break;
             }
@@ -44,7 +44,7 @@ public class UI_Lives : MonoBehaviour
             
             case 2:
             {
-                imgLives1.gameObject.SetActive(true);
+                imgLives1.gameObject.SetActive(false);
                 imgLives2.gameObject.SetActive(true);
                 imgLives3.gameObject.SetActive(false);
                 break;
