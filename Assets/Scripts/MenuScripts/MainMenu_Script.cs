@@ -20,6 +20,12 @@ public class MainMenu_Script: MonoBehaviour
         mainMenuCanvas.SetActive(false);
 
     }
+    
+    
+    public void EndCredits()
+    {
+        SceneManager.LoadScene("FinalCredits");
+    }
 
     public void Quit()
     {
