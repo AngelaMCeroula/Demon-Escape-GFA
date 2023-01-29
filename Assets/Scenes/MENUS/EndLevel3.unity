@@ -831,7 +831,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 719318360}
         m_TargetAssemblyTypeName: LevelSelect, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: EndCredits
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -840,7 +840,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
 --- !u!114 &1774461154
 MonoBehaviour:
   m_ObjectHideFlags: 0

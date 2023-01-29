@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu_Script: MonoBehaviour
 {
+    public GameObject mainMenuCanvas;
+    public GameObject levelSelectCanvas;
     public void StartButton()
     {
         SceneManager.LoadScene("Level_0_Attic");
@@ -13,8 +15,10 @@ public class MainMenu_Script: MonoBehaviour
 
     public void LevelSelectButton()
     {
-        SceneManager.LoadScene("LevelSelect");
-        
+        //SceneManager.LoadScene("LevelSelect");
+        levelSelectCanvas.SetActive(true);
+        mainMenuCanvas.SetActive(false);
+
     }
 
     public void Quit()

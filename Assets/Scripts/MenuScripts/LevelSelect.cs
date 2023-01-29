@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class LevelSelect : MonoBehaviour
 {
+    public GameObject mainMenuCanvas;
+    public GameObject levelSelectCanvas;
+    private void Start()
+    {
+        
+    }
+
     public void Level0()
     {
         SceneManager.LoadScene("Level_0_Attic");
@@ -30,11 +38,18 @@ public class LevelSelect : MonoBehaviour
 
     public void EndCredits()
     {
-        
+        SceneManager.LoadScene("FinalCredits");
     }
     
+    public void ReturnToMainMenu()
+    {
+        mainMenuCanvas.SetActive(true);
+        levelSelectCanvas.SetActive(false);
+    }
+
     public void Return()
     {
-        SceneManager.LoadScene("MainMenu");   
+        SceneManager.LoadScene("MainMenu"); 
+        
     }
 }

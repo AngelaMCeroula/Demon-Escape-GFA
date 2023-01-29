@@ -29,7 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TEST_Debug_Level.unity
     guid: d28e35c016496e046beb8348b51face8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MENUS/LevelSelect.unity
     guid: 661724f1e604603489f9decf48c57c2a
   - enabled: 1
