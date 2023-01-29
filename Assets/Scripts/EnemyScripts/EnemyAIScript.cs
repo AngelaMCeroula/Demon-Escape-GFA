@@ -80,7 +80,7 @@ public class EnemyAIScript : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.white;
-        UnityEditor.Handles.DrawWireDisc(transform.position,Vector3.forward, radius);
+        //UnityEditor.Handles.DrawWireDisc(transform.position,Vector3.forward, radius);
 
         Vector3 angle01 = DirectionFromAngle(-transform.eulerAngles.z, -angle / 2);
         Vector3 angle02 = DirectionFromAngle(-transform.eulerAngles.z, angle / 2);

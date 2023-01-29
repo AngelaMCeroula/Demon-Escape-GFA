@@ -5230,6 +5230,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Demon_2
       objectReference: {fileID: 0}
+    - target: {fileID: 2539897784489776786, guid: dc1ae5cb857dcdc4195870264d81fe4d, type: 3}
+      propertyPath: maxSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2539897784489776815, guid: dc1ae5cb857dcdc4195870264d81fe4d, type: 3}
       propertyPath: player
       value: 
