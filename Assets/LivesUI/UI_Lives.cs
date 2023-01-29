@@ -18,8 +18,8 @@ public class UI_Lives : MonoBehaviour
     {
         gOver = GameObject.Find("Player").GetComponent<Player_Life_GameOver>();
         currentLives = gOver.lives;
-        imgLives1.gameObject.SetActive(true);
-        imgLives2.gameObject.SetActive(true);
+        imgLives1.gameObject.SetActive(false);
+        imgLives2.gameObject.SetActive(false);
         imgLives3.gameObject.SetActive(true);
         
     }
